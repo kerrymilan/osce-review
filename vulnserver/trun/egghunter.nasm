@@ -6,16 +6,13 @@ push edx
 push byte +0x2
 pop eax
 int 0x2e
-push byte 0x04
-pop ebx
-inc ebx
-cmp al,bl
+cmp al,0x5
 pop edx
-jz short 0x0
+jz short 0x2
 mov eax,0x57303054
 mov edi,edx
 scasd
-jnz short 0x5
+jnz short 0x7
 scasd
-jnz short 0x5
+jnz short 0x7
 jmp edi
