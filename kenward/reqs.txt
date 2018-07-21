@@ -1,0 +1,14 @@
+# Requirements
+
+ * Windows XP SP3 (patched)
+ * Ken Ward Zipper
+ x Immunity Debugger 1.73
+    x pvefindaddr plugin
+ x alpha2 encoder
+ x Perl
+
+
+
+## Links
+http://www.abyssec.com/blog/2010/03/ken-ward-zipper-stack-bof-0day-a-not-so-typical-seh-exploit/
+https://trans4mind.com/personal_development/zipper/instzip2.exe
